@@ -1,0 +1,197 @@
+@import 'https://coolors.co/8e9aaf-cbc0d3-efd3d7-feeafa-dee2ff';
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 600px;
+    background-color: #cbc0d3;
+}
+
+.hero{ 
+    background-color: #8e9aaf;
+    /* background-color: #1c1d25; */
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    padding: 40px;
+    background-color: #8e9aaf;
+    color:white;
+    text-align: center;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* .nav-header {
+    background-color: #cbc0d3;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 10px;
+} */
+
+ul {
+    display:flex;
+    list-style-type: none;
+    width: 500px; 
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+li:hover {
+    background-color: #cbc0d3;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-text{
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    background-color: #cbc0d3;
+    border-radius: 35px;
+    text-align: center;
+    padding-top: 5px; 
+    margin-top: 20px;
+}
+.button:hover {
+    background-color: #efd3d7;
+}
+.button:active {
+    background-color: darkgray;
+    color: #dee2ff;
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+.social{
+    margin: 20px;
+}
+
+.logo{
+    height: 80px;
+    margin: 35px;
+    color: #cbc0d3;
+}
+
+.sub-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.information p {
+    font-size: 20px;
+    margin: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 5px;
+    margin:5px;
+}
+
+.headshot {
+    width: 150px;
+    border-radius: 125px;
+    box-shadow: 20px 20px 30px #efd3d7;
+}
+/* .headshot-container {
+    display: flex;
+    align-items: center;
+} */
+
+.project-work{
+    width: 300px;
+    height: 500px;
+    background-color: #cbc0d3;
+    box-shadow: 8px 8px 30px #efd3d7;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    width: 250px;
+    margin-top: 25px;
+    border-radius: 125px;;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.link1 {
+    margin: 3px;
+    padding: 5px;
+}
+
+.link2 {
+    margin: 3px;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.subtext-detail {
+    padding: 3px;
+    font-weight: bolder;
+}
